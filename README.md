@@ -58,14 +58,14 @@ xcode-select --install
 > This is the package manager. It allows you to install, uninstall, and update command-line tools and Mac applications.
 > To install it, open the terminal, and run this command:
 ```shell
-/bin/bash -c “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh"
 ```
 
 ### Oh My Zsh
 > Oh My Zsh is a community-driven framework for managing your Zsh configuration. It provides hundreds of plugins and themes and makes configuring Zsh a breeze.
 > To install Oh My Zsh, run:
 ```shell
-sh -c “$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh"
 ```
 
 ## Package Installs
